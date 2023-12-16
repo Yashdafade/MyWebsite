@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
         <>
             <header data-aos="fade"> 
-                <a href="http://localhost:3000/"><h1 data-aos="fade-up" className="logo">Portfolio</h1></a>
+                <a href="https://yashdafade.github.io/MyWebsite/"><h1 data-aos="fade-up" className="logo">Portfolio</h1></a>
 
                 <i
                     className={`bx ${isMenuOpen ? 'bx-x' : 'bx-menu-alt-right'}`}
