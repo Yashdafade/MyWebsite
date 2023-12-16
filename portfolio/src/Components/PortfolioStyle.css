@@ -288,6 +288,10 @@ p {
     text-align: justify;
 }
 
+.about-div .about-content .right p b{
+    color: #00a5ad;
+}
+
 @media screen and (max-width: 1300px) {
     .about {
         padding: 0rem 5rem;
