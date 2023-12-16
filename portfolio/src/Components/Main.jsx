@@ -41,7 +41,7 @@ const Main = () => {
                         </div>
                     </div>
                     <div className="image">
-                        <img data-aos="fade-up" data-aos-delay="90" src="/Assets/Myavatar2.png" alt="" />
+                        <img data-aos="fade-up" data-aos-delay="90" src="./Assets/Myavatar2.png" alt="" />
                     </div>
                 </div>
             </section>

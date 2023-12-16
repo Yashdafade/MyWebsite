@@ -8,7 +8,7 @@ const Projects = () => {
                     <h1 data-aos="fade-up">My Projects</h1>
                     <div className="box project-1">
                         <div className="project-image" data-aos="fade-up" >
-                            <img src="/Assets/JMD Website.png" alt="JMDWebsiteImg" />
+                            <img src="./Assets/JMD Website.png" alt="JMDWebsiteImg" />
                         </div>
                         <div className="project-1-text" data-aos="fade-up">
                             <h2>JMD Group Website(HomePage)</h2>
@@ -30,13 +30,13 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="project-image" data-aos="fade-up">
-                            <img src="/Assets/WeatherApp.png" alt="WeatherAppImg" />
+                            <img src="./Assets/WeatherApp.png" alt="WeatherAppImg" />
                         </div>
                     </div>
 
                     <div className="box project-3">
                         <div className="project-image" data-aos="fade-up">
-                            <img src="/Assets/Calculator.png" alt="JMDWebsiteImg" />
+                            <img src="./Assets/Calculator.png" alt="JMDWebsiteImg" />
                             {/* <img src="https://drive.google.com/file/d/1_Stit-7ZMJAbVXq5crMJZuNLvGvpRMGy/view?usp=drive_link" alt="JMDWebsiteImg" /> */}
                         </div>
                         <div className="project-1-text" data-aos="fade-up">
@@ -59,7 +59,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="project-image" data-aos="fade-up">
-                            <img src="/Assets/Tello.png" alt="WeatherAppImg" />
+                            <img src="./Assets/Tello.png" alt="WeatherAppImg" />
                         </div>
                     </div>
                 </div>
