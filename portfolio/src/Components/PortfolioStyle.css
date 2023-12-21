@@ -527,7 +527,7 @@ footer p {
 .projects {
     align-items: center;
     justify-content: space-between;
-    background: radial-gradient(#e1efff, white);
+    background: fixed radial-gradient(#e1efff, white);
     padding-bottom: 5rem;
 }
 
