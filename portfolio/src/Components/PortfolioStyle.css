@@ -285,7 +285,7 @@ p {
 
 .about-div .about-content .right p {
     font-size: 1.2rem;
-    text-align: justify;
+    text-align:center;
 }
 
 .about-div .about-content .right p b{
@@ -405,6 +405,12 @@ p {
 
 .service_box:hover p {
     opacity: 1;
+}
+
+@media screen and (max-width: 500px) {
+    .service_box p{
+        font-size: 0.9rem;
+    }
 }
 
 /* contact-me */
