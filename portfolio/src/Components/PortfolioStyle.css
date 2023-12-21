@@ -27,11 +27,11 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    /* background-color: #0b2c3b; */
-    background-image: url(https://user-images.githubusercontent.com/513929/53929982-e5497700-404c-11e9-8393-dece0b196c98.png);
+    background-color: #0b2c3b;
+    /* background-image: url(https://user-images.githubusercontent.com/513929/53929982-e5497700-404c-11e9-8393-dece0b196c98.png);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     box-sizing: border-box;
     padding: 1rem 10rem;
     z-index: 100;
