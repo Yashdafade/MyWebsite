@@ -108,7 +108,7 @@ header nav .active {
         left: 0rem;
         width: 100%;
         padding: 1rem 3%;
-        background: #0d0b3b;
+        background: #0b2c3b;
         transform: translateX(-100%);
         transition: 0.5s ease;
         display: block;
