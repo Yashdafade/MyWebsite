@@ -502,7 +502,7 @@ footer p {
 }
 
 .column {
-    padding: 2rem 0rem ;
+    padding: 2rem;
 }
 
 .field {
@@ -593,6 +593,8 @@ footer p {
     }
 
 }
+
+
 
 /* Projects */
 
