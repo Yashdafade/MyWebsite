@@ -425,6 +425,12 @@ p {
     background-repeat: no-repeat;
 }
 
+.contact .inner{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0rem;
+}
+
 .contact-header {
     margin: 10rem 10rem 3rem 10rem;
     text-align: center;
@@ -448,17 +454,17 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 5rem;
+    padding: 2rem 0rem;
 }
 
 .contact .contact-content h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #fff;
 }
 
 .contact .contact-content a {
     color: #00a5ad;
-    font-size: 2rem;
+    font-size: 2.5rem;
     transition: transform 0.1s ease-in-out;
 }
 
@@ -482,6 +488,66 @@ p {
 
 footer p {
     color: #fff;
+}
+
+/* Add this to your existing stylesheet or create a new one */
+
+.container {
+    /* max-width: 800px; */
+    color: #fff;
+}
+
+.columns {
+    margin-top: 1rem;
+}
+
+.column {
+    padding: 2rem 0rem ;
+}
+
+.field {
+    margin-bottom: 1.5em;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.control {
+    position: relative;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #3273dc;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #205493;
+}
+
+@media screen and (max-width: 1000px) {
+    .contact .inner{
+        display: flex;
+        flex-direction:column ;
+    }
+
+    .msg{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 960px) {
