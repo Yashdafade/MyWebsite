@@ -54,7 +54,7 @@ const Contactme = () => {
                         <div class="columns">
                             <div class="column is-half">
                                 <h2 className='msg'  data-aos="fade-down">Send A Message</h2>
-                                <form action="mailto:yashdafade93@gmail.com" method="post">
+                                <form action="">
                                     <div class="field">
                                         <label  data-aos="fade-down" class="label">Name</label>
                                         <div class="control">
