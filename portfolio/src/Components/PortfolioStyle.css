@@ -784,7 +784,7 @@ footer p {
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .skillbar-title {
         font-size: 1rem;
     }
