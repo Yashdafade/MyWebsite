@@ -36,6 +36,12 @@ const Aboutme = () => {
                                     <div data-aos="fade-up" class="skillbar-bar" style={{ width: '85%' }}></div>
                                 </div>
 
+                                <div class="skillbar" data-percent="70%">
+                                    <div data-aos="fade-up" class="skillbar-title">Git & Github</div>
+                                    <div data-aos="fade-up" class="skill-bar-percent">75%</div>
+                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '75%' }}></div>
+                                </div>
+
                                 <div class="skillbar" data-percent="40%">
                                     <div data-aos="fade-up" class="skillbar-title">React.Js</div>
                                     <div data-aos="fade-up" class="skill-bar-percent">70%</div>
@@ -46,12 +52,6 @@ const Aboutme = () => {
                                     <div data-aos="fade-up" class="skillbar-title">Bootstrap & Tailwind</div>
                                     <div data-aos="fade-up" class="skill-bar-percent">60%</div>
                                     <div data-aos="fade-up" class="skillbar-bar" style={{ width: '60%' }}></div>
-                                </div>
-
-                                <div class="skillbar" data-percent="70%">
-                                    <div data-aos="fade-up" class="skillbar-title">Git & Github</div>
-                                    <div data-aos="fade-up" class="skill-bar-percent">75%</div>
-                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '75%' }}></div>
                                 </div>
 
                                 <div class="skillbar" data-percent="70%">
