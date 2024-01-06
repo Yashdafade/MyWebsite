@@ -6,7 +6,6 @@ import Aboutme from './Aboutme'
 import Services from './Services'
 import Contactme from './Contactme'
 import Projects from './Projects'
-import Skills from './Skills'
 
 const MyPortfolio = () => {
 
@@ -15,7 +14,6 @@ const MyPortfolio = () => {
         <Navbar/>
         <Main/>
         <Aboutme/>
-        <Skills/>
         <Services/>
         <Projects/>
         <Contactme/>

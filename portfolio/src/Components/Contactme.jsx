@@ -1,7 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react'
+import axios from 'axios';
 import './PortfolioStyle.css'
 
 const Contactme = () => {
+    const [Name, setName] =  useState('');
+    const [message, setMessage] =  useState('');
+    const [email, setEmail] =  useState('');
+
+    const handlesubmit = () => {
+        if (Name.length === 0 && email.length === 0 && message.length === 0) {
+            alert('All fields are empty!')
+        }
+        else   if (Name.length === 0) {
+            alert('Name has left blank!')
+        }
+        else   if (email.length === 0) {
+            alert('Email has left blank!')
+        }   
+        else   if (message.length === 0) {
+            alert('Message has left blank!')
+        }   
+        else{
+            // const url = 'http://localhost/test/contact.php';
+            // let fData = new FormData();
+            // fData.append('Name', Name);
+            // fData.append('message', message);
+            // fData.append('email', email);
+            // axios.post(url, fData).then(response=> alert(response.data)).catch(error=> alert(error));
+            alert('Your message has been sent successfully!')
+        }
+
+    }
     return (
         <>
             <div class="contact" id='contact' data-aos="fade">
@@ -25,28 +54,28 @@ const Contactme = () => {
                         <div class="columns">
                             <div class="column is-half">
                                 <h2 className='msg'  data-aos="fade-down">Send A Message</h2>
-                                <form action="mailto:yashdafade93@gmail.com" method="post" enctype="text/plain">
+                                <form action="">
                                     <div class="field">
                                         <label  data-aos="fade-down" class="label">Name</label>
                                         <div class="control">
-                                            <input  data-aos="fade-down" class="input" type="text" placeholder="Your Name" required/>
+                                            <input  data-aos="fade-down" name='Name' class="input" type="text" placeholder="Your Name" value={Name} onChange={(e) =>setName(e.target.value)} required/>
                                         </div>
                                     </div>
                                     <div class="field">
                                         <label  data-aos="fade-down" class="label">Email</label>
                                         <div class="control">
-                                            <input  data-aos="fade-down" class="input" type="email" placeholder="Your Email" required/>
+                                            <input  data-aos="fade-down" name='email' class="input" type="email" placeholder="Your Email" value={email} onChange={(e) =>setEmail(e.target.value)} required/>
                                         </div>
                                     </div>
                                     <div class="field">
                                         <label  data-aos="fade-down" class="label">Message</label>
                                         <div class="control">
-                                            <textarea  data-aos="fade-down" class="textarea" placeholder="Your Message" required></textarea>
+                                            <textarea  data-aos="fade-down" name='message' class="textarea" placeholder="Your Message" value={message} onChange={(e) =>setMessage(e.target.value)} required></textarea>
                                         </div>
                                     </div>
                                     <div class="field">
                                         <div class="control">
-                                            <button  data-aos="fade-down" class="button is-primary">Submit</button>
+                                            <button  data-aos="fade-down" class="button is-primary" onClick={handlesubmit} >Submit</button>
                                         </div>
                                     </div>
                                 </form>
