@@ -49,6 +49,12 @@ const Aboutme = () => {
                                 </div>
 
                                 <div class="skillbar" data-percent="80%">
+                                    <div data-aos="fade-up" class="skillbar-title">Java</div>
+                                    <div data-aos="fade-up" class="skill-bar-percent">70%</div>
+                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '70%' }}></div>
+                                </div>
+
+                                <div class="skillbar" data-percent="80%">
                                     <div data-aos="fade-up" class="skillbar-title">Bootstrap & Tailwind</div>
                                     <div data-aos="fade-up" class="skill-bar-percent">60%</div>
                                     <div data-aos="fade-up" class="skillbar-bar" style={{ width: '60%' }}></div>
