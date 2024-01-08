@@ -10,7 +10,7 @@ const Main = () => {
     const el = useRef(null);
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['Yash Dafade','Front-End Web Developer', 'Web Designer', 'Freelancer'],
+            strings: ['Yash Dafade','Front-End Web Developer', 'Web Designer', 'Freelancer','Java Developer'],
             typeSpeed: 100,
             backSpeed: 100,
             loop: true,
