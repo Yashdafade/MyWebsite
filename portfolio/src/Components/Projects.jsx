@@ -49,7 +49,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="box project-4">
+                    {/* <div className="box project-4">
                         <div className="project-1-text" data-aos="fade-up">
                             <h2>Tello-Task Managing App</h2>
                             <p>Developed a task management app called "Tello" using HTML, CSS, and JavaScript. Inspired by the Kanban board concept, the app focuses on frontend implementation to provide users with an intuitive and user-friendly interface for organizing tasks.</p>
@@ -61,7 +61,7 @@ const Projects = () => {
                         <div className="project-image" data-aos="fade-up">
                             <img src="./Assets/Tello.png" alt="WeatherAppImg" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </>
