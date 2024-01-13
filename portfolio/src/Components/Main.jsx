@@ -32,7 +32,7 @@ const Main = () => {
                             A dynamic web developer and tech enthusiast
                         </p>
                         <div data-aos="fade-up" data-aos-delay="50" className="links">
-                        <a href="https://drive.google.com/file/d/1UuTrUM0YUgB9sVvEPFfld0CtvHW71s4c/view?usp=sharing" target='_blank' className="btn">
+                        <a href="https://drive.google.com/file/d/1lvH71wv6ynB97d6V7mjVk4M-GyS-8L78/view?usp=sharing" target='_blank' className="btn">
                             View CV
                         </a>
                         <a href="#contact" className="btn">
