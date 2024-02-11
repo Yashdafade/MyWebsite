@@ -30,7 +30,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="project-image" data-aos="fade-up">
-                            <img src="./Assets/WeatherApp.png" alt="WeatherAppImg" />
+                            <img src="./Assets/WeatherApp2.png" alt="WeatherAppImg" />
                         </div>
                     </div>
 
