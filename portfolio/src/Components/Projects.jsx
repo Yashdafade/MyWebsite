@@ -6,6 +6,24 @@ const Projects = () => {
             <section class="projects" id="projects" data-aos="fade">
                 <div className="project-container">
                     <h1 data-aos="fade-up">My Projects</h1>
+
+                    <div className="box project-3">
+                        <div className="project-image" data-aos="fade-up">
+                            <video controls autoPlay loop muted> 
+                                <source src="https://drive.google.com/file/d/1_Stit-7ZMJAbVXq5crMJZuNLvGvpRMGy/view?usp=drive_link" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div className="project-1-text" data-aos="fade-up">
+                            <h2>Schoolix - School Management Software</h2>
+                            <p>Collaboratively developed and deployed Schoolix, a comprehensive school management software. Key modules include pre-admission console, inventory management, billing console, library management, and ongoing work on transport management. The project is live at schools with positive feedback.</p>
+                            {/* <div className="links">
+                                <a href="https://schoolix-demo.com" target='_blank'><i class='bx bx-link-external'></i>Live Demo</a>
+                                <a href="https://github.com/Yashdafade/Schoolix" target='_blank'><i class='bx bxl-github'></i>Github</a>
+                            </div> */}
+                        </div>
+                    </div>
+
                     <div className="box project-1">
                         <div className="project-image" data-aos="fade-up" >
                             <img src="./Assets/JMD Website.png" alt="JMDWebsiteImg" />
@@ -34,10 +52,11 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="box project-3">
+
+                    {/* <div className="box project-3">
                         <div className="project-image" data-aos="fade-up">
                             <img src="./Assets/Calculator.png" alt="JMDWebsiteImg" />
-                            {/* <img src="https://drive.google.com/file/d/1_Stit-7ZMJAbVXq5crMJZuNLvGvpRMGy/view?usp=drive_link" alt="JMDWebsiteImg" /> */}
+                            <img src="https://drive.google.com/file/d/1_Stit-7ZMJAbVXq5crMJZuNLvGvpRMGy/view?usp=drive_link" alt="JMDWebsiteImg" />
                         </div>
                         <div className="project-1-text" data-aos="fade-up">
                             <h2>Web Calculator(HTML,Css & JS)</h2>
@@ -47,7 +66,7 @@ const Projects = () => {
                                 <a href="https://github.com/Yashdafade/Calculator-Html-CSS-and-JavaScipt-" target='_blank'><i class='bx bxl-github'></i>Github</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* <div className="box project-4">
                         <div className="project-1-text" data-aos="fade-up">

@@ -17,10 +17,10 @@ const Aboutme = () => {
                         </div>
                         <div class="column right">
                             <div data-aos="fade-up" class="text">I'm Yash Dafade</div>
-                            <p data-aos="fade-up">Enthusiastic about launching a career in web development, I am actively seeking entry-level opportunities with renowned organizations. Motivated to not only apply my existing skills but also to delve into mastering cutting-edge technologies within the dynamic realm of web development. Ready to contribute, learn, and thrive in a collaborative and innovative environment.</p>
+                            <p data-aos="fade-up">Driven by a passion for web development, I am eager to launch my career by seeking entry-level opportunities with forward-thinking organizations. I'm motivated to apply my growing skill set in full-stack development while continuously mastering the latest technologies in this ever-evolving field. Ready to contribute, learn, and thrive in a collaborative and innovative environment.</p>
                             <br />
                             <div data-aos="fade-up" class="text">Why Work With Me?</div>
-                            <p data-aos="fade-up"> I'm a skilled web developer proficient in <b>HTML, CSS, and JavaScript</b>, with expertise in frameworks like <b>Bootstrap and React.js</b>. My strong grasp of version control using <b>Git and GitHub</b> ensures efficient collaboration. Committed to staying current with industry trends, I bring a passion for continuous learning. As a dedicated team player, I deliver <b>pixel-perfect</b> websites that exceed expectations. Let's transform your ideas into exceptional digital experiences!</p>
+                            <p data-aos="fade-up">I'm a proficient full-stack web developer skilled in <b>ReactJS, Node.js, Express.js, and MySQL</b>. My experience includes <b>developing and deploying complex web applications, implementing JWT-based authentication, and managing version control using Git and GitHub</b>. Committed to delivering high-quality, efficient solutions, I stay current with industry trends and continuously expand my knowledge. As a dedicated team player, I aim to create impactful digital experiences that not only meet but exceed expectations. Let's collaborate to bring your vision to life!</p>
                         </div>
                     </div>
                 </div>
@@ -31,45 +31,33 @@ const Aboutme = () => {
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="skillbar" data-percent="55%">
-                                    <div data-aos="fade-up" class="skillbar-title">HTML, CSS & Javascript</div>
+                                    <div data-aos="fade-up" class="skillbar-title">ReactJS</div>
+                                    <div data-aos="fade-up" class="skill-bar-percent">90%</div>
+                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '90%' }}></div>
+                                </div>
+
+                                <div class="skillbar" data-percent="70%">
+                                    <div data-aos="fade-up" class="skillbar-title">Git Version Control & Github</div>
                                     <div data-aos="fade-up" class="skill-bar-percent">85%</div>
                                     <div data-aos="fade-up" class="skillbar-bar" style={{ width: '85%' }}></div>
                                 </div>
 
                                 <div class="skillbar" data-percent="70%">
-                                    <div data-aos="fade-up" class="skillbar-title">Git & Github</div>
-                                    <div data-aos="fade-up" class="skill-bar-percent">75%</div>
-                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '75%' }}></div>
+                                    <div data-aos="fade-up" class="skillbar-title">Database Management(MYSQL)</div>
+                                    <div data-aos="fade-up" class="skill-bar-percent">80%</div>
+                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '80%' }}></div>
                                 </div>
 
-                                <div class="skillbar" data-percent="40%">
-                                    <div data-aos="fade-up" class="skillbar-title">React.Js</div>
-                                    <div data-aos="fade-up" class="skill-bar-percent">70%</div>
-                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '70%' }}></div>
+                                <div class="skillbar" data-percent="70%">
+                                    <div data-aos="fade-up" class="skillbar-title">ExpressJS and NodeJS</div>
+                                    <div data-aos="fade-up" class="skill-bar-percent">80%</div>
+                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '80%' }}></div>
                                 </div>
 
                                 <div class="skillbar" data-percent="80%">
                                     <div data-aos="fade-up" class="skillbar-title">Java</div>
                                     <div data-aos="fade-up" class="skill-bar-percent">70%</div>
                                     <div data-aos="fade-up" class="skillbar-bar" style={{ width: '70%' }}></div>
-                                </div>
-
-                                <div class="skillbar" data-percent="80%">
-                                    <div data-aos="fade-up" class="skillbar-title">Bootstrap</div>
-                                    <div data-aos="fade-up" class="skill-bar-percent">60%</div>
-                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '60%' }}></div>
-                                </div>
-
-                                <div class="skillbar" data-percent="70%">
-                                    <div data-aos="fade-up" class="skillbar-title">Database Management</div>
-                                    <div data-aos="fade-up" class="skill-bar-percent">50%</div>
-                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '50%' }}></div>
-                                </div>
-
-                                <div class="skillbar" data-percent="70%">
-                                    <div data-aos="fade-up" class="skillbar-title">Backend Development</div>
-                                    <div data-aos="fade-up" class="skill-bar-percent">30%</div>
-                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '30%' }}></div>
                                 </div>
                             </div>
                         </div>

@@ -85,7 +85,7 @@ const Contactme = () => {
                 </div>
 
                 <footer>
-                    <p>© 2023 Yash Dafade | All rights reserved.</p>
+                    <p>© 2024 Yash Dafade | All rights reserved.</p>
                 </footer>
             </div>
 

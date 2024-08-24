@@ -10,7 +10,7 @@ const Main = () => {
     const el = useRef(null);
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['Yash Dafade','Front-End Web Developer', 'Web Designer', 'Freelancer','Java Developer'],
+            strings: ['Yash Dafade', 'MERN Stack Developer', 'Web Designer', 'Freelancer','Java Developer'],
             typeSpeed: 100,
             backSpeed: 100,
             loop: true,
@@ -29,10 +29,10 @@ const Main = () => {
                         </div>
                         
                         <p data-aos="fade-up" data-aos-delay="70">
-                            A dynamic web developer and tech enthusiast
+                            A Dynamic Web Developer and Tech Enthusiast
                         </p>
                         <div data-aos="fade-up" data-aos-delay="50" className="links">
-                        <a href="https://drive.google.com/file/d/1sKhYZ-trlD2CZietqSBRVxfZQ53i3-jb/view?usp=sharing" target='_blank' className="btn">
+                        <a href="https://drive.google.com/file/d/1Z3fj6m3iP4p1WEo-Dj64uZ0Vvp1Mrg_w/view?usp=sharing" target='_blank' className="btn">
                             View CV
                         </a>
                         <a href="#contact" className="btn">

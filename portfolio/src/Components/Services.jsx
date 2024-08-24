@@ -78,42 +78,43 @@ const Services = () => {
                         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="50">
                             <div class="service_box" >
                                 <div class="service_icon">
-                                <i class='bx bx-code-alt'></i>
+                                    <i class='bx bx-code-alt'></i>
                                 </div>
-                                <h3>Front-End Developer</h3>
-                                <p>Craft responsive and engaging websites with HTML, CSS, Bootstrap, and JavaScript, including dynamic frameworks.</p>
+                                <h3>Full-Stack Development</h3>
+                                <p>Develop end-to-end web applications using ReactJS, Node.js, Express.js, and MySQL with a focus on scalability and performance.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="60">
                             <div class="service_box">
                                 <div class="service_icon">
-                                <i class='bx bxl-react' ></i>
+                                    <i class='bx bxl-react' ></i>
                                 </div>
-                                <h3>React.js Development</h3>
-                                <p>Specialize in building optimized single-page applications with reusable components using React.js & Redux.</p>
+                                <h3>React.js & Redux</h3>
+                                <p>Build optimized and reusable single-page applications with React.js and Redux, ensuring state management and efficiency.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="70">
                             <div class="service_box">
                                 <div class="service_icon">
-                                <i class='bx bx-git-branch' ></i>
+                                    <i class='bx bx-key'></i>
                                 </div>
-                                <h3>Git Version Control</h3>
-                                <p>Provide expertise in Git version control, ensuring seamless collaboration and management on GitHub.</p>
+                                <h3>API Development & Integration</h3>
+                                <p>Design and implement secure REST APIs with JWT-based authentication, integrating third-party services seamlessly.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="80">
                             <div class="service_box">
                                 <div class="service_icon">
-                                <i class='bx bxl-figma'></i>
+                                    <i class='bx bx-git-branch'></i>
                                 </div>
-                                <h3>UI/UX Integration</h3>
-                                <p>Seamlessly translate Figma designs into web interfaces, collaborating closely with designers for flawless integration.</p>
+                                <h3>CI/CD & Git Version Control</h3>
+                                <p>Implement Continuous Integration/Continuous Deployment pipelines and manage codebases with Git for streamlined development.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
 
         </>
     )
