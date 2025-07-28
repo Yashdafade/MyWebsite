@@ -3,24 +3,24 @@ import axios from 'axios';
 import './PortfolioStyle.css'
 
 const Contactme = () => {
-    const [Name, setName] =  useState('');
-    const [message, setMessage] =  useState('');
-    const [email, setEmail] =  useState('');
+    const [Name, setName] = useState('');
+    const [message, setMessage] = useState('');
+    const [email, setEmail] = useState('');
 
     const handlesubmit = () => {
         if (Name.length === 0 && email.length === 0 && message.length === 0) {
             alert('All fields are empty!')
         }
-        else   if (Name.length === 0) {
+        else if (Name.length === 0) {
             alert('Name has left blank!')
         }
-        else   if (email.length === 0) {
+        else if (email.length === 0) {
             alert('Email has left blank!')
-        }   
-        else   if (message.length === 0) {
+        }
+        else if (message.length === 0) {
             alert('Message has left blank!')
-        }   
-        else{
+        }
+        else {
             // const url = 'http://localhost/test/contact.php';
             // let fData = new FormData();
             // fData.append('Name', Name);
@@ -53,29 +53,33 @@ const Contactme = () => {
                     <div class="container">
                         <div class="columns">
                             <div class="column is-half">
-                                <h2 className='msg'  data-aos="fade-down">Send A Message</h2>
+                                <h2 className='msg' data-aos="fade-down">Send A Message</h2>
+                                <p className='msg' style={{ textAlign: 'right' }} data-aos="fade-down">
+                                    This Contact Form doesn't work but If you want then I can make one that works😜
+                                </p>
+
                                 <form action="">
                                     <div class="field">
-                                        <label  data-aos="fade-down" class="label">Name</label>
+                                        <label data-aos="fade-down" class="label">Name</label>
                                         <div class="control">
-                                            <input  data-aos="fade-down" name='Name' class="input" type="text" placeholder="Your Name" value={Name} onChange={(e) =>setName(e.target.value)} required/>
+                                            <input data-aos="fade-down" name='Name' class="input" type="text" placeholder="Your Name" value={Name} onChange={(e) => setName(e.target.value)} required />
                                         </div>
                                     </div>
                                     <div class="field">
-                                        <label  data-aos="fade-down" class="label">Email</label>
+                                        <label data-aos="fade-down" class="label">Email</label>
                                         <div class="control">
-                                            <input  data-aos="fade-down" name='email' class="input" type="email" placeholder="Your Email" value={email} onChange={(e) =>setEmail(e.target.value)} required/>
+                                            <input data-aos="fade-down" name='email' class="input" type="email" placeholder="Your Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
                                         </div>
                                     </div>
                                     <div class="field">
-                                        <label  data-aos="fade-down" class="label">Message</label>
+                                        <label data-aos="fade-down" class="label">Message</label>
                                         <div class="control">
-                                            <textarea  data-aos="fade-down" name='message' class="textarea" placeholder="Your Message" value={message} onChange={(e) =>setMessage(e.target.value)} required></textarea>
+                                            <textarea data-aos="fade-down" name='message' class="textarea" placeholder="Your Message" value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
                                         </div>
                                     </div>
                                     <div class="field">
                                         <div class="control">
-                                            <button  data-aos="fade-down" class="button is-primary" onClick={handlesubmit} >Submit</button>
+                                            <button data-aos="fade-down" class="button is-primary" onClick={handlesubmit} >Submit</button>
                                         </div>
                                     </div>
                                 </form>
@@ -85,8 +89,9 @@ const Contactme = () => {
                 </div>
 
                 <footer>
-                    <p>© 2024 Yash Dafade | All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} Yash Dafade | All rights reserved.</p>
                 </footer>
+
             </div>
 
         </>

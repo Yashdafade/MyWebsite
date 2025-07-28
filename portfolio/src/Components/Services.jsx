@@ -81,7 +81,7 @@ const Services = () => {
                                     <i class='bx bx-code-alt'></i>
                                 </div>
                                 <h3>Full-Stack Development</h3>
-                                <p>Develop end-to-end web applications using ReactJS, Node.js, Express.js, and MySQL with a focus on scalability and performance.</p>
+                                <p>Architect robust web apps using the MERN stack. Deliver high-performance, secure, and scalable full-stack solutions tailored to real-world needs.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="60">
@@ -90,7 +90,7 @@ const Services = () => {
                                     <i class='bx bxl-react' ></i>
                                 </div>
                                 <h3>React.js & Redux</h3>
-                                <p>Build optimized and reusable single-page applications with React.js and Redux, ensuring state management and efficiency.</p>
+                                <p>Build modern, responsive SPAs using React.js. Apply state management best practices with Redux to ensure seamless user experiences.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="70">
@@ -99,7 +99,7 @@ const Services = () => {
                                     <i class='bx bx-key'></i>
                                 </div>
                                 <h3>API Development & Integration</h3>
-                                <p>Design and implement secure REST APIs with JWT-based authentication, integrating third-party services seamlessly.</p>
+                                <p>Develop secure RESTful APIs using Node.js and Express. Integrate external services and enforce role-based authentication with JWT.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="80">
@@ -107,8 +107,8 @@ const Services = () => {
                                 <div class="service_icon">
                                     <i class='bx bx-git-branch'></i>
                                 </div>
-                                <h3>CI/CD & Git Version Control</h3>
-                                <p>Implement Continuous Integration/Continuous Deployment pipelines and manage codebases with Git for streamlined development.</p>
+                                <h3>CI/CD & GitOps</h3>
+                                <p>Automate builds and deployments via GitHub Actions. Leverage Git for streamlined collaboration, version control, and production-ready workflows.</p>
                             </div>
                         </div>
                     </div>

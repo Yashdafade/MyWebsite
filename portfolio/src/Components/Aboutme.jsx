@@ -17,10 +17,10 @@ const Aboutme = () => {
                         </div>
                         <div class="column right">
                             <div data-aos="fade-up" class="text">I'm Yash Dafade</div>
-                            <p data-aos="fade-up">Driven by a passion for web development, I am eager to launch my career by seeking entry-level opportunities with forward-thinking organizations. I'm motivated to apply my growing skill set in full-stack development while continuously mastering the latest technologies in this ever-evolving field. Ready to contribute, learn, and thrive in a collaborative and innovative environment.</p>
+                            <p data-aos="fade-up">I’m a passionate full-stack developer who thrives on building impactful and efficient digital solutions. With a strong command over the MERN stack and a growing expertise in DevOps and AI integrations, I specialize in developing scalable applications from concept to deployment.</p>
                             <br />
                             <div data-aos="fade-up" class="text">Why Work With Me?</div>
-                            <p data-aos="fade-up">I'm a proficient full-stack web developer skilled in <b>ReactJS, Node.js, Express.js, and MySQL</b>. My experience includes <b>developing and deploying complex web applications, implementing JWT-based authentication, and managing version control using Git and GitHub</b>. Committed to delivering high-quality, efficient solutions, I stay current with industry trends and continuously expand my knowledge. As a dedicated team player, I aim to create impactful digital experiences that not only meet but exceed expectations. Let's collaborate to bring your vision to life!</p>
+                            <p data-aos="fade-up">I bring hands-on experience in <b>React.js, Node.js, Express, and MySQL</b>, coupled with a keen interest in DevOps practices and intelligent automation. My portfolio includes <b>live production-grade apps, JWT-secured APIs, and full-scale deployments using Git & VPS</b>. I believe in continuous learning, clean architecture, and collaborative execution. Let’s transform your ideas into high-performance digital platforms.</p>
                         </div>
                     </div>
                 </div>
@@ -44,20 +44,26 @@ const Aboutme = () => {
 
                                 <div class="skillbar" data-percent="70%">
                                     <div data-aos="fade-up" class="skillbar-title">Database Management(MYSQL)</div>
-                                    <div data-aos="fade-up" class="skill-bar-percent">80%</div>
-                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '80%' }}></div>
+                                    <div data-aos="fade-up" class="skill-bar-percent">85%</div>
+                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '85%' }}></div>
                                 </div>
 
                                 <div class="skillbar" data-percent="70%">
                                     <div data-aos="fade-up" class="skillbar-title">ExpressJS and NodeJS</div>
-                                    <div data-aos="fade-up" class="skill-bar-percent">80%</div>
-                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '80%' }}></div>
+                                    <div data-aos="fade-up" class="skill-bar-percent">85%</div>
+                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '85%' }}></div>
                                 </div>
 
                                 <div class="skillbar" data-percent="80%">
-                                    <div data-aos="fade-up" class="skillbar-title">Java</div>
+                                    <div data-aos="fade-up" class="skillbar-title">Docker & CI/CD Pipelines</div>
                                     <div data-aos="fade-up" class="skill-bar-percent">70%</div>
                                     <div data-aos="fade-up" class="skillbar-bar" style={{ width: '70%' }}></div>
+                                </div>
+
+                                 <div class="skillbar" data-percent="80%">
+                                    <div data-aos="fade-up" class="skillbar-title">FastAPI + Python AI Integration</div>
+                                    <div data-aos="fade-up" class="skill-bar-percent">65%</div>
+                                    <div data-aos="fade-up" class="skillbar-bar" style={{ width: '65%' }}></div>
                                 </div>
                             </div>
                         </div>
